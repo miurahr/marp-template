@@ -8,6 +8,6 @@
     "pdf": "marp slide.md --theme theme/slide.css --html --pdf --allow-local-files"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^3.4.0"
+    "@marp-team/marp-cli": "^4.1.1"
   }
 }
