@@ -4,7 +4,7 @@ marp: true
 paginate: true
 ---
 
-![bg right:40% 80%](./images/Logo_weeklyOSM.svg)
+![bg right:40% 80%](../images/Logo_weeklyOSM.svg)
 
 # **Hello JetBrains Rider**
 
