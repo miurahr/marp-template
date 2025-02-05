@@ -4,11 +4,11 @@ marp: true
 paginate: true
 ---
 
-![bg right:40% 80%](../images/Logo_weeklyOSM.svg)
+![bg right:40% 80%](images/Logo_weeklyOSM.svg)
 
-# **Hello JetBrains Rider**
+# **Hello weeklyOSM**
 
-?‍Presentation Cool! ??️
+Keynote presentation!
 
 
 ---
@@ -17,7 +17,7 @@ paginate: true
 
 Split pages by horizontal ruler (`---`). It's very simple! :satisfied:
 
-? Bugs, Bugs, Bugs!
+? foot notes
 
 ---
 

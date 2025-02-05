@@ -18,12 +18,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Convert Markdown into HTML and PDF
-        uses: ./slide
+      - uses: actions/setup-node@v4
         with:
-          config-file: ./slide/.marprc.yml
-
+          node-version: latest
+      - name: Generate presentation
+        run: |
+          npm install
+          npm run html
       - name: Uploade artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -38,8 +39,9 @@ jobs:
     permissions:
       pages: write
       id-token: write
-
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          token: ${{ github.token }}
