@@ -6,10 +6,7 @@ paginate: true
 
 ![bg right:40% 80%](images/Logo_weeklyOSM.svg)
 
-# **Hello weeklyOSM**
-
-Keynote presentation!
-
+# **Hello World**
 
 ---
 
@@ -17,7 +14,7 @@ Keynote presentation!
 
 Split pages by horizontal ruler (`---`). It's very simple! :satisfied:
 
-? foot notes
+? Foot notes
 
 ---
 
